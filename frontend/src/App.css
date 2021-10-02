@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  height:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  justify-self: flex-end;
+}
+
+.tableContainer {
+  flex: 3;
+}
+
+.titanicImage {
+  background-image: url("./assets/titanic.png");
+  filter: opacity(0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-size: cover;
+}
+
+.title {
+  font-size: 30px;
+  flex: 1;
+}
+
+#root { 
+  height:100%;
+  padding: 20px
+}
