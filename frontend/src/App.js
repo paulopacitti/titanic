@@ -120,7 +120,7 @@ class App extends React.Component {
     return (
       <div className="container">
         <div className="titanicImage"/>
-        <p className="title">Informaçoes da rede</p>
+        <p className="title">Informações da rede</p>
         <div className="tableContainer">
           <Table celled striped>
             <Table.Body>
