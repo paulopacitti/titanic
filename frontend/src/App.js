@@ -108,7 +108,7 @@ class App extends React.Component {
           >
             "chrome://flags/#enable-webrtc-hide-local-ips-with-mdns"
           </b>
-          na barra de navegação e desabilite a opção de destacada
+          na barra de navegação e desabilite a opção destacada
         </span>
       </div>
     );
