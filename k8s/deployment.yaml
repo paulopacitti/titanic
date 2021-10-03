@@ -23,6 +23,13 @@ spec:
       - image: ghcr.io/paulopacitti/titanic:main
         imagePullPolicy: IfNotPresent
         name: frontend
+        resources:
+          requests:
+            memory: "2Mi"
+            cpu: "1m"
+          limits:
+            memory: "256Mi"
+            cpu: "250m"
         ports:
         - containerPort: 80
           protocol: TCP
