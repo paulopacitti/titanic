@@ -6,6 +6,11 @@ COPY package.json /app/package.json
 RUN npm install
 RUN npm install react-scripts@3.0.1 -g
 COPY . /app
+
+ARG REACT_APP_HOST_IP_ADDRESS
+ENV REACT_APP_HOST_IP_ADDRESS $REACT_APP_HOST_IP_ADDRESS
+ENV REACT_APP_SERASSE "É possivel salvar por aqui"
+
 RUN npm run build
 
 # production environment

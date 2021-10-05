@@ -1,11 +1,11 @@
 import './App.css';
-import React from 'react'
-import axios from 'axios'
+import React from 'react';
+import axios from 'axios';
 import {
   Icon,
   Popup,
   Table,
-} from 'semantic-ui-react'
+} from 'semantic-ui-react';
 
 class App extends React.Component {
   constructor(props) {
@@ -116,6 +116,7 @@ class App extends React.Component {
 
   render() {
     console.log(this.state);
+    console.log(process.env);
     const { loading } = this.state;
     return (
       <div className="container">
